@@ -96,7 +96,7 @@
                     $status_data = array(
                         "status" => $status_message,
                         "language" => "eng",
-                        "visibility" => "public"
+                        "visibility" => "unlisted"
                     );
 
                     $headers = [
