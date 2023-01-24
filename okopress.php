@@ -71,6 +71,7 @@
                         // PUSH REFORMATTED CATEGORY INTO ARRAY WITH HASHTAGS
                         $hashtag[] = $category;
                     }
+                    $hashtag[] = "#MEWS";
                     // GATHER ALL HASHTAGS TOGETHER INTO ONE STRING WITH SPACE AS SEPARATOR
                     $hashtags = implode(" ", $hashtag);
 
